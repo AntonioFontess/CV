@@ -1,0 +1,95 @@
+/* Estilo para o corpo da página com fundo azul */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa; /* Fundo azul claro */
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Estilo para o título principal */
+h1 {
+    color: #2c3e50;
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para a seção de perfil */
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+figure img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+figcaption {
+    font-style: italic;
+    color: #555;
+    margin-top: 5px;
+}
+
+/* Estilo para seções com fundo branco */
+section {
+    background-color: #ffffff; /* Fundo branco */
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para títulos das seções */
+section h2 {
+    background-color: #76a0a9;
+    color: white;
+    padding: 8px;
+    font-size: 18px;
+    margin: 0 -15px 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+/* Estilo para links */
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e74c3c;
+    text-decoration: underline;
+}
+
+/* Estilo para a lista de itens */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding-left: 1.2em;
+    text-indent: -1.2em;
+}
+
+ul li:before {
+    content: "• ";
+    color: #2980b9;
+    font-weight: bold;
+}
+
+/* Estilo para rodapé */
+footer {
+    text-align: center;
+    font-size: 12px;
+    color: #555;
+    margin-top: 20px;
+}
